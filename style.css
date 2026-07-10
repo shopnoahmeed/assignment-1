@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding : 10px 60px;
+    align-items: center;
+}
+.nav-links ul {
+    display : flex; 
+    gap : 20px
+}
+.nav-links ul li {
+    list-style: none;
+}
+
+.nav-links ul li a {
+    text-decoration : none;
+    color : #000;
+    font-weight : 400;
+}
+
+.nav-links ul li a:hover {
+    text-decoration : underline;
+}
+
+.common-btn {
+    font-weight : bold;
+    background-color : #2563EB;
+    color : #fff;
+    padding: 10px 19px;
+    border : none;
+    border-radius : 6px;
+    cursor : pointer;
+}
+
+.hero-section{
+    background-image :linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("./assets/banner.jpg");
+    background-size : cover;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.hero-content{
+    position: relative;
+    top: 20%;
+    max-width : 600px;
+    margin : auto;
+    /* transform: translateY(-50%); */
+}
+.hero-content h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero-button{
+    position: relative;
+    top: 60%;
+    /* transform: translateY(-50%); */
+}
