@@ -69,7 +69,10 @@ nav{
     top: 40%;
     /* transform: translateY(-50%); */
 }
-
+.speaker-section{
+    margin-top : 50px; 
+    padding : 0 50px;
+}
 .speaker-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
